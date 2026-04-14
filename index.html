@@ -535,10 +535,26 @@
       transition: opacity 0.5s cubic-bezier(0.22, 1, 0.36, 1), transform 0.5s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.25s, box-shadow 0.25s;
     }
 
-    .projects-grid .project-card:nth-child(1), .ventures-grid .venture-card:nth-child(1) { transition-delay: 0.05s; }
-    .projects-grid .project-card:nth-child(2), .ventures-grid .venture-card:nth-child(2) { transition-delay: 0.15s; }
+    .projects-grid .project-card:nth-child(1) { transition-delay: 0.05s; }
+    .projects-grid .project-card:nth-child(2) { transition-delay: 0.15s; }
     .projects-grid .project-card:nth-child(3) { transition-delay: 0.25s; }
     .projects-grid .project-card:nth-child(4) { transition-delay: 0.35s; }
+
+    .timeline.visible .timeline-item,
+    .edu-grid.visible .edu-card {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .timeline .timeline-item,
+    .edu-grid .edu-card {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.5s cubic-bezier(0.22, 1, 0.36, 1), transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    .timeline .timeline-item:nth-child(1), .edu-grid .edu-card:nth-child(1) { transition-delay: 0.05s; }
+    .timeline .timeline-item:nth-child(2), .edu-grid .edu-card:nth-child(2) { transition-delay: 0.15s; }
 
     .skill-tag {
       opacity: 0;
@@ -553,13 +569,188 @@
     .skills-revealed .skill-tag:nth-child(4) { transition-delay: 0.20s; }
     .skills-revealed .skill-tag:nth-child(5) { transition-delay: 0.25s; }
 
+    /* ── OPEN TO ROLES ── */
+    .open-to-roles {
+      margin-top: 20px;
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--muted);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .status-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #22c55e;
+      flex-shrink: 0;
+      animation: pulse 2.4s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+
+    /* ── EXPERIENCE ── */
+    #experience {
+      padding: 120px 0;
+      border-top: 1px solid var(--border);
+    }
+
+    .timeline {
+      display: flex;
+      flex-direction: column;
+      gap: 48px;
+    }
+
+    .timeline-item {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+      padding-left: 20px;
+      border-left: 1px solid var(--border);
+      position: relative;
+    }
+
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -5px;
+      top: 6px;
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: var(--accent);
+    }
+
+    .timeline-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .timeline-role {
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      margin-bottom: 4px;
+    }
+
+    .timeline-company {
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--accent);
+      letter-spacing: 0.05em;
+    }
+
+    .timeline-dates {
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--muted);
+      letter-spacing: 0.05em;
+      white-space: nowrap;
+      padding-top: 4px;
+    }
+
+    .timeline-bullets {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .timeline-bullets li {
+      font-size: 14px;
+      color: var(--muted);
+      line-height: 1.7;
+      padding-left: 16px;
+      position: relative;
+    }
+
+    .timeline-bullets li::before {
+      content: '—';
+      position: absolute;
+      left: 0;
+      color: var(--border);
+    }
+
+    /* ── EDUCATION ── */
+    #education {
+      padding: 120px 0;
+      border-top: 1px solid var(--border);
+    }
+
+    .edu-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .edu-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .edu-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 16px;
+    }
+
+    .edu-degree {
+      font-size: 17px;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      margin-bottom: 4px;
+    }
+
+    .edu-institution {
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--accent);
+      letter-spacing: 0.05em;
+    }
+
+    .edu-dates {
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--muted);
+      white-space: nowrap;
+      padding-top: 4px;
+    }
+
+    .edu-thesis {
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .edu-thesis strong { color: var(--text); font-weight: 500; }
+
+    .edu-modules {
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--muted);
+      letter-spacing: 0.03em;
+      line-height: 1.7;
+    }
+
     /* ── RESPONSIVE ── */
     @media (max-width: 768px) {
       .container { padding: 0 24px; }
       nav { padding: 16px 24px; }
       .nav-links { display: none; }
       .about-grid { grid-template-columns: 1fr; gap: 40px; }
-      .ventures-grid { grid-template-columns: 1fr; }
+      .edu-grid { grid-template-columns: 1fr; }
       footer { flex-direction: column; gap: 8px; text-align: center; }
     }
   </style>
@@ -571,8 +762,9 @@
     <span class="nav-logo">ng.dev</span>
     <ul class="nav-links">
       <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
       <li><a href="#projects">Projects</a></li>
-      <li><a href="#ventures">Ventures</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
     <button class="theme-toggle" id="themeToggle" title="Toggle light/dark mode">
@@ -588,21 +780,25 @@
         <img src="HS.jpg" alt="Nikolas Germishuysen" />
       </div>
       <div class="hero-inner">
-        <div class="hero-tag">Quant background · Data by day · Builder by night</div>
+        <div class="hero-tag">Data Engineer · Quant background · ML & Data Science</div>
         <h1>Nikolas<br /><span class="name-accent">Germishuysen</span></h1>
         <p class="hero-bio">
-          I find patterns where others see noise — trained in <strong>investment management
-          and mathematical statistics</strong>, applied in analytics, data science, and ecommerce.
-          I build things on the side because sitting still isn't really my thing.
+          My background is in <strong>data engineering and analytics</strong>, built on a foundation
+          of <strong>mathematical statistics and investment management</strong>. I'm moving deeper into
+          <strong>machine learning and data science</strong> — where the quantitative training I have
+          actually gets to do its job.
         </p>
         <div class="hero-cta">
           <a href="mailto:nikolas.germishuysen@gmail.com" class="btn btn-primary">
             Get in touch
           </a>
-          <a href="#projects" class="btn btn-ghost">
-            See my work
+          <a href="MyCV.pdf" download class="btn btn-ghost">
+            Download CV
           </a>
         </div>
+        <p class="open-to-roles">
+          <span class="status-dot"></span> Open to ML engineering and data science roles
+        </p>
       </div>
     </div>
   </section>
@@ -612,31 +808,29 @@
     <div class="container">
       <div class="fade-in">
         <p class="section-label">About</p>
-        <h2 class="section-title">Data-driven.<br />Builder at heart.</h2>
+        <h2 class="section-title">Quant foundation.<br />Engineering in practice.</h2>
       </div>
       <div class="about-grid fade-in">
         <div class="about-text">
           <p>
             I studied <strong>Investment Management</strong> as an undergrad, then went deeper with a
-            postgraduate in <strong>Statistics</strong>, focused on mathematical statistics and data science.
-            That combination — finance fundamentals plus rigorous quantitative training — shapes how I
-            approach every problem.
+            postgraduate in <strong>Statistics</strong> — mathematical statistics, time series, stochastic
+            modelling. That combination shapes how I approach every problem: rigorous where it matters,
+            practical in execution.
           </p>
           <p>
-            I have an obsessive attention to detail and a natural instinct for finding patterns —
-            in data, in behaviour, in systems. I've applied that across <strong>analytics, data engineering,
-            and ecommerce</strong>, including building live pricing middleware for a Shopify store.
-            Pattern recognition isn't just something I've studied. It's something I've practiced.
+            Currently a <strong>Data Engineer at IT Trust</strong>, where I own the full data stack —
+            pipelines, BI, and a production VPS self-service platform I built solo from UI
+            to infrastructure API. Before that, I built analytics platforms for clients across the
+            fresh produce supply chain at <strong>Prophet SA</strong>.
           </p>
           <p>
-            I have a bias for action. I don't wait for perfect conditions — I work with what's there,
-            move fast, and figure out what's missing along the way. I've founded two businesses,
-            built production software, and taken projects from idea to shipped without a team behind me.
+            I take ownership end-to-end — from understanding the problem to delivering the solution.
+            I'm used to being accountable for the full picture, not just my slice of it.
           </p>
           <p>
-            I'm drawn to platforms operating at the intersection of <strong>payments, trust, and scale</strong> —
-            the kind where the problems are genuinely hard and the stakes are real. That's the environment
-            I want to be in.
+            I'm drawn to roles where <strong>statistical rigour and engineering depth</strong> both matter —
+            the kind of problems where getting the model right is only half the job.
           </p>
         </div>
         <div class="skills-grid">
@@ -646,28 +840,29 @@
               <span class="skill-tag">Python</span>
               <span class="skill-tag">SQL</span>
               <span class="skill-tag">R</span>
+              <span class="skill-tag">SAS</span>
               <span class="skill-tag">JavaScript</span>
-              <span class="skill-tag">HTML/CSS</span>
-              <span class="skill-tag">Node.js</span>
             </div>
           </div>
           <div>
-            <p class="skill-group-label">Data & Analytics</p>
+            <p class="skill-group-label">ML & Statistics</p>
             <div class="skill-tags">
-              <span class="skill-tag">Excel</span>
-              <span class="skill-tag">Data Modelling</span>
-              <span class="skill-tag">Dashboards</span>
-              <span class="skill-tag">Statistical Analysis</span>
-              <span class="skill-tag">ML</span>
+              <span class="skill-tag">scikit-learn</span>
+              <span class="skill-tag">Statistical Modelling</span>
+              <span class="skill-tag">Dimensionality Reduction</span>
+              <span class="skill-tag">Time Series Analysis</span>
+              <span class="skill-tag">Feature Engineering</span>
+              <span class="skill-tag">Stochastic Modelling</span>
             </div>
           </div>
           <div>
-            <p class="skill-group-label">Development</p>
+            <p class="skill-group-label">Data & BI</p>
             <div class="skill-tags">
-              <span class="skill-tag">Web Development</span>
-              <span class="skill-tag">Mobile-first Web Apps</span>
-              <span class="skill-tag">Data Pipelines</span>
-              <span class="skill-tag">APIs</span>
+              <span class="skill-tag">Power BI</span>
+              <span class="skill-tag">MS SQL Server</span>
+              <span class="skill-tag">Star Schema</span>
+              <span class="skill-tag">ETL Pipelines</span>
+              <span class="skill-tag">MS Azure Fabric</span>
             </div>
           </div>
           <div>
@@ -675,13 +870,93 @@
             <div class="skill-tags">
               <span class="skill-tag">Fraud Detection</span>
               <span class="skill-tag">Risk Analysis</span>
-              <span class="skill-tag">Credit</span>
               <span class="skill-tag">Anomaly Detection</span>
-              <span class="skill-tag">eCommerce</span>
-              <span class="skill-tag">Behavioural Analytics</span>
+              <span class="skill-tag">Quantitative Finance</span>
+              <span class="skill-tag">Supply Chain Analytics</span>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="container">
+      <div class="fade-in">
+        <p class="section-label">Experience</p>
+        <h2 class="section-title">Where I've worked.</h2>
+      </div>
+      <div class="timeline fade-in">
+
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <div>
+              <h3 class="timeline-role">Data Engineer</h3>
+              <p class="timeline-company">IT Trust</p>
+            </div>
+            <span class="timeline-dates">Feb 2026 — Present</span>
+          </div>
+          <ul class="timeline-bullets">
+            <li>Sole developer of an automated VPS self-service platform on Next.js and Proxmox — full stack from UI to infrastructure API integration</li>
+            <li>Engineered async provisioning pipeline covering order ingestion, VM creation, and automated credential delivery via Microsoft Graph API</li>
+            <li>Extracted raw MSP operational data from N-able API, modelled into a star schema in SQL Server, and built Power BI reports via on-prem gateway</li>
+            <li>Built and maintained ETL pipelines in Python and developed Power BI dashboards for executive and operational teams</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <div>
+              <h3 class="timeline-role">Junior Data Associate</h3>
+              <p class="timeline-company">Prophet SA, UK & US</p>
+            </div>
+            <span class="timeline-dates">Mar 2025 — Dec 2025</span>
+          </div>
+          <ul class="timeline-bullets">
+            <li>Built analytics platforms across the fresh produce supply chain — logistics, cold storage, cash flow, and revenue dashboards</li>
+            <li>Contributed to data warehouse schema design, standardising structures across clients to improve scalability</li>
+            <li>Developed a client-facing analytics portal that automated internal and external reporting, significantly reducing manual processes</li>
+            <li>Worked closely with cross-functional stakeholders to translate business problems into data-driven solutions</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="container">
+      <div class="fade-in">
+        <p class="section-label">Education</p>
+        <h2 class="section-title">Academic background.</h2>
+      </div>
+      <div class="edu-grid fade-in">
+
+        <div class="edu-card">
+          <div class="edu-header">
+            <div>
+              <h3 class="edu-degree">BCom (Honours) Statistics</h3>
+              <p class="edu-institution">Stellenbosch University</p>
+            </div>
+            <span class="edu-dates">2024</span>
+          </div>
+          <p class="edu-thesis">Thesis: <strong>t-Distributed Stochastic Neighbour Embedding vs. Principal Component Analysis</strong></p>
+          <p class="edu-modules">Multivariate Statistical Analysis · Stochastic Modelling · Time Series Analysis · Data Science · Biostatistics · Stochastic Simulation</p>
+        </div>
+
+        <div class="edu-card">
+          <div class="edu-header">
+            <div>
+              <h3 class="edu-degree">BCom Investment Management</h3>
+              <p class="edu-institution">Stellenbosch University</p>
+            </div>
+            <span class="edu-dates">2021 — 2023</span>
+          </div>
+          <p class="edu-thesis">Foundation in <strong>quantitative finance, investment theory, and financial management</strong> — the lens through which I approach data problems.</p>
+        </div>
+
       </div>
     </div>
   </section>
@@ -696,6 +971,36 @@
       <div class="projects-grid fade-in">
 
         <div class="project-card">
+          <p class="project-type">Infrastructure · Full-stack</p>
+          <h3 class="project-title">VPS Self-Service Platform</h3>
+          <p class="project-desc">
+            Built solo — a fully automated VPS provisioning platform on Next.js and Proxmox.
+            Handles the full stack: order ingestion, async VM creation, and automated credential
+            delivery via Microsoft Graph API. Zero manual intervention once an order comes in.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <p class="project-type">Data Engineering · BI</p>
+          <h3 class="project-title">MSP Data Platform</h3>
+          <p class="project-desc">
+            Extracted raw operational data from the N-able MSP API, modelled it into a star schema
+            in SQL Server, and built Power BI reports on top via an on-prem gateway —
+            turning previously unstructured MSP data into business intelligence.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <p class="project-type">Analytics · Power BI</p>
+          <h3 class="project-title">Supply Chain Dashboards</h3>
+          <p class="project-desc">
+            Designed and built Power BI dashboards for executives and operational teams across
+            logistics, cold storage, and fresh produce — tracking KPIs, pallet movements,
+            cash flow, and floor-level operations in real time.
+          </p>
+        </div>
+
+        <div class="project-card">
           <p class="project-type">eCommerce · Engineering</p>
           <h3 class="project-title">Dynamic Pricing Middleware</h3>
           <p class="project-desc">
@@ -706,70 +1011,13 @@
         </div>
 
         <div class="project-card">
-          <p class="project-type">Data Science</p>
-          <h3 class="project-title">Data Science Projects</h3>
+          <p class="project-type">Statistics · Research</p>
+          <h3 class="project-title">Honours Thesis: t-SNE vs PCA</h3>
           <p class="project-desc">
-            End-to-end data science work: collection, cleaning, modelling, and visualisation.
-            The kind of projects where the hardest part is the data, not the model.
+            Comparative study of dimensionality reduction techniques — t-Distributed Stochastic
+            Neighbour Embedding versus Principal Component Analysis. When to trust the topology
+            of your high-dimensional data, and when not to.
           </p>
-        </div>
-
-        <div class="project-card">
-          <p class="project-type">Analytics · Visualisation</p>
-          <h3 class="project-title">Interactive Dashboards</h3>
-          <p class="project-desc">
-            Designed and built dashboards that surface what actually matters — giving teams
-            a clear view of performance without burying them in noise.
-          </p>
-        </div>
-
-        <div class="project-card">
-          <p class="project-type">Web Development</p>
-          <h3 class="project-title">Website Development</h3>
-          <p class="project-desc">
-            Built multiple websites from scratch — design, code, deployment.
-            This one included, if you hadn't noticed.
-          </p>
-        </div>
-
-        <div class="project-card">
-          <p class="project-type">App Development</p>
-          <h3 class="project-title">Mobile-first Web Apps</h3>
-          <p class="project-desc">
-            Built web-based apps designed to be used on mobile — functional, fast, and built to
-            feel native without the overhead of a native app.
-          </p>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- VENTURES -->
-  <section id="ventures">
-    <div class="container">
-      <div class="fade-in">
-        <p class="section-label">Ventures</p>
-        <h2 class="section-title">I've started two<br />businesses. Still building.</h2>
-      </div>
-      <div class="ventures-grid fade-in">
-
-        <div class="venture-card">
-          <h3 class="venture-name">Nird Tutoring</h3>
-          <p class="venture-desc">
-            Founded and built from the ground up — brand, systems, and client base.
-            Running a service business teaches you things a dataset can't, which is saying something.
-          </p>
-          <a href="https://nirdtutoring.co.za" target="_blank" style="display:inline-block;margin-top:16px;font-family:var(--mono);font-size:12px;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">nirdtutoring.co.za →</a>
-        </div>
-
-        <div class="venture-card">
-          <h3 class="venture-name">The Seed Collective</h3>
-          <p class="venture-desc">
-            Founded solo. A clothing brand in the works — built with the same conviction I bring to
-            anything else: if it's worth doing, it's worth doing properly.
-          </p>
-          <a href="https://theseedcollective.co.za" target="_blank" style="display:inline-block;margin-top:16px;font-family:var(--mono);font-size:12px;color:var(--accent);text-decoration:none;letter-spacing:0.05em;">theseedcollective.co.za →</a>
         </div>
 
       </div>
@@ -781,7 +1029,7 @@
     <div class="container">
       <div class="fade-in">
         <h2 class="contact-headline">Let's work<br />together.</h2>
-        <p class="contact-sub">Working at Whop would be life-changing for me — and that's exactly why I'll outwork everyone in the room.</p>
+        <p class="contact-sub">I'm at my best when the problems are hard and the stakes are real. If that sounds like your team, let's talk.</p>
         <div class="contact-links">
 
           <a href="mailto:nikolas.germishuysen@gmail.com" class="contact-link">
@@ -844,7 +1092,7 @@
       });
     }, { threshold: 0.08 });
 
-    document.querySelectorAll('.projects-grid, .ventures-grid').forEach(el => cardObserver.observe(el));
+    document.querySelectorAll('.projects-grid, .timeline, .edu-grid').forEach(el => cardObserver.observe(el));
 
     // Stagger skill tags
     const skillObserver = new IntersectionObserver((entries) => {
