@@ -1,0 +1,409 @@
+This document contains the descriptions of all modules completed according to the
+2025 EMS yearbook of Stellenbosch University.
+
+Academic Year 2021
+Business Management 113 — 12 credits (Code: 48550-113)
+Procedures for the establishment of a new business, the business environment, business
+ethics, competition, idea generation and entrepreneurship, choice of form of business,
+determining break-even levels, resources and people involved in the business, management
+and managerial resources.
+Home department: Business Management
+Economics 144 — 12 credits (Code: 12084-144)
+The module will introduce you to economic application and policy, with a strong focus on
+South Africa, by exploring contemporary economic issues: inflation, unemployment, economic
+growth, external stability and a fair distribution of income. The aggregate economy in the
+short-run and long-run: measuring the aggregate economy, the multiplier model,
+unemployment and fiscal policy, inflation and monetary policy, the money market and the
+South African Reserve Bank (SARB), technological change and income inequality.
+Globalisation: international trade, migration and investment.
+Corequisite module: Economics 114
+Home department: Economics
+Mercantile law (acc) 193 — 24 credits (Code: 58432-193)
+Sources of South African Law and fundamental concepts; general principles of contract law,
+agency, specific contracts (sale, lease and credit agreements); labour law; insolvency law
+and security; instruments of payment.
+Home department: Mercantile Law
+Information systems 144 — 12 credits (Code: 48062-144)
+Practical use of general spreadsheet software in a business environment.
+Notes: • Information Systems 144 and Information Systems 112 may not be presented
+together for degree purposes.
+
+Business Management 142 — 6 credits (Code: 48550-142)
+The investment cycle; the role and functioning of the JSE Securities Exchange SA;
+investment risks; factors that influence share prices; fundamental and technical analysis of
+companies.
+Home department: Business Management
+Statistics and Data Science 188 — 18 credits (Code: 14223-188)
+Linear programming: graphical techniques to solve problems with two variables; shadow
+prices; sensitivity analyses. (Only applies to BAcc students).
+Data science: fundamental concepts; the data cycle; data ethics.
+Descriptive statistics: various data types; graphical representation of data; descriptive
+measures of location, spread and association; box plots.
+Sampling techniques: simple random; stratified; systematic; cluster; probability
+proportional to size.
+Probability theory: basic probability concepts; Bayes’ theorem; counting rules.
+Discrete random variables and probability distributions: expected value, variance and
+standard deviation of a discrete random variable; covariance between discrete random
+variables; binomial, hypergeometric and Poisson distributions.
+Continuous random variables and probability distributions: expected value, variance and
+standard deviation of a continuous random variable; the uniform, normal and exponential
+distributions.
+Sampling distributions: central limit theorem; sampling distributions of the mean and a
+proportion; sampling distribution of the difference between two means and two
+proportions.
+Inferential statistics: interval estimation and hypothesis testing for the mean, a proportion,
+the variance and the standard deviation; interval estimation and hypothesis testing for the
+difference between two means, two proportions and the ratio of two variances.
+Regression analysis: the simple and multiple linear regression model; the method of least
+squares estimation; inference on the model parameters and coefficient of correlation;
+residual analysis.
+Home department: Statistics and Actuarial Science
+Note: To major in Statistics for a BCom degree, the modules Statistics and Data Science 188,
+Statistics 214, 224, 244 and Statistics 318, 348 are required.
+
+Theory of interest 152 — 6 credits (Code: 38784-152)
+Simple and compound interest. Force of interest. Future value, present value and discount.
+Accumulation and discounting of amounts of money. Various types of annuities and
+applications. Home department: Statistics and Actuarial Science
+Economics 114 — 12 credits (Code: 12084-114)
+Problems economists address: inequality, poverty, economic growth, sustainability,
+scarcity, choice. Economic decision-making: incentives, relative prices, economic rent,
+labour, production, opportunity cost. Economic relationships and interactions: game theory,
+equity, efficiency. Markets: demand and supply, price-taking and competitive markets,
+elasticity, labour market. Market dynamics: rent-seeking, market failure, externalities and
+government policies. Home department: Economics
+Information systems 114 — 12 credits (Code: 48062-114)
+General information technology concepts for business systems (general systems theory;
+infrastructure; networks and electronic communication; introduction to the development,
+management and control of information systems). The practical use of a computerised
+accounting information system and general application software.
+Home department: School of Accountancy
+
+Academic Year 2022
+Financial management 214 — 16 credits (Code: §1047-214)
+Compiling the statement of financial position, the statement of profit or loss and the
+statement of cash flows; the measurement and evaluation of financial performance with
+reference to profitability, liquidity and solvency analysis; case studies about financial
+analysis; introduction to the investment decision; the financing decision; sources of finance;
+the dividend decision; financial planning and the management of working capital with
+specific reference to cash, trade receivables and inventory control; financial failures;
+international financial management.
+Corequisite modules: • Business Management 113 • Business Management 142 or
+Mathematics 114 or Mathematics (Bio) 124
+Home department: Business Management
+
+Economics 214 — 16 credits (Code: 12084-214)
+Macroeconomics: business cycle measurement, consumer and firm behaviour, closed one-
+period macroeconomic models, consumption and savings decisions in a two-period model
+Microeconomics: goods and factor markets, demand theory, production and cost theory,
+market structures and the theory of the firm, welfare theory.
+Prerequisite pass modules: Economics 114, 144
+Home department: Economics
+Statistics (Applied Statistics) 214 — 16 credits (Code: 19658-214)
+Descriptive statistics: Various data types; Frequency distributions; Contingency tables;
+Graphical representation of different data types; Measures of location and spread; Box-and-
+whisker plot. Discrete stochastic variables and probability distributions: Expected value,
+variance and standard deviation of a discrete stochastic variable; Correlation between
+discrete stochastic variables; Joint, marginal and conditional distributions; Distribution of the
+sum of variables; Binomial and Poisson distributions. Continuous stochastic variables and
+probability distributions: Expected value, variance and standard deviation of a continuous
+stochastic variable. Distributions: Uniform, normal, exponential, gamma, t, F, chi square and
+beta. Sampling distributions: The central limit theorem; Sampling distributions of one mean;
+One proportion and one variance; Sampling distributions of the difference between two means
+and the difference between two proportions; Sampling distributions of the ratio of two
+variances. Inferential statistics: Interval estimation and hypothesis testing for one mean, one
+proportion and one variance; Interval estimation and hypothesis testing for the difference
+between two means, the difference between two proportions and the ratio of two variances;
+Concept and calculation of p values in above cases; Determining sample sizes; Calculation of
+power and the effect of sample size on it. Categorical data analysis: Hypothesis testing for the
+difference between two or more proportions; Tests for independence; The goodness of fit test.
+Note: Application of statistical techniques using Microsoft® Excel is emphasised throughout.
+Prerequisite pass modules: • Statistics and Data Science 188 or • Probability Theory and
+Statistics 114 or 144 Corequisite module: Statistics 224 (Students who have passed
+Mathematics 114 or 144 are exempt from this.)
+Home department: Statistics and Actuarial Science
+Statistics (Statistical Theory and Practice) 224 — 16 credits (Code: 19658-224)
+Handling data sets: Data vectors and data matrices; different types of data and its influence
+on the choice of applicable statistical techniques; manipulations with data vectors and data
+matrices; calculating simple statistical measures with the use of vectors and matrices; the R
+programming language; importing data into R; vector and matrix operations in R to
+calculate statistical measures; determinant and eigenvalues of a square matrix with
+applications in statistics.
+
+Moment generating functions and their applications: Moments of a random variable;
+calculation and interpretation of discrete and continuous moments with summation and
+integration; the exponential function and some of its basic properties; the moment
+generating function; moment generating functions of important distributions; obtaining
+moments from moment generating functions using differentiation and a series expansion;
+graphical displays of probability distributions in R (the denstrip package).
+Transformations: The logarithmic and square root transformations and their usage and
+effect in the analysis of data.
+Optimisation in statistics: Obtaining the maximum and minimum of a function of a single
+variable using differentiation; the least squares method; the maximum likelihood method
+(in general); Lagrange multipliers.
+Transformations: The logarithmic and square root transformations and their usage and
+effect in the analysis of data. Prerequisite pass module: Statistics and Data Science 188
+Home department: Statistics and Actuarial Science
+Financial accounting 188 — 24 credits (Code: 26883-188)
+Theoretical principles of International Financial Reporting Standards; accounting systems;
+preparation and presentation of financial statements for different enterprises.
+Home department: School of Accountancy
+Investment management 254 — 16 credits (Code: 55344-254)
+Portfolio theory and portfolio management; the relationship between risk and return; the
+efficient market hypothesis; valuation and risk of fixed income securities; evaluation of
+share investments; properties of derivative instruments; derivative strategies; valuation of
+options and futures; measurement and evaluation of portfolio returns.
+Corequisite module: Business Management 113 Prerequisite modules: • Business
+Management 142 • Statistics and Data Science 188 or • Probability Theory and Statistics
+114 or 144
+Home department: Business Management
+Economics 244 — 16 credits (Code: 12084-244)
+South African monetary policy. International trade and finance: the theory of international
+trade, barriers to free trade, the World Trade Organisation and regional economic
+integration, the balance of payments, international financial markets, adjustment
+mechanisms, policy options, exchange rate determination, the international monetary
+system and South African exchange rate policy.
+Prerequisite pass modules: Economics 114, 144 Corequisite module: Economics 214
+
+Home department: Economics
+Statistical Inference 244 — 16 credits (Code: 19658-244)
+Sampling techniques: Simple random sampling; Stratified sampling; Systematic sampling;
+Cluster sampling; Probability proportional to size sampling.
+Properties of estimators: Unbiasedness; Efficiency; Consistency; Sufficiency; Robustness.
+Estimation methods: Maximum likelihood; Method of moments.
+Simple linear regression analysis: The simple linear regression model; Method of least
+squares estimation; Inference on the model parameters and the correlation coefficient;
+Residual analysis; Prediction intervals and confidence intervals.
+Multiple linear regression analysis: The multiple linear regression model; Residual analysis;
+Inference on the parameters of the model; Regression models with dummy variables and
+interaction terms; Polynomial regression; Transformations; Collinearity; Variable selection.
+Analysis of variance: Completely randomised factorial designs; Block designs.
+Non-parametric techniques for analysis of variance: Wilcoxon’s rank sum test; The sign test;
+Wilcoxon’s signed-rank test; Kruskal-Wallis test; Friedman’s test.
+Note: Application of statistical techniques using Microsoft® Excel and R are emphasised
+throughout. Prerequisite pass module: Statistics 214 Prerequisite module: Statistics 224
+Home department: Statistics and Actuarial Science
+
+Academic Year 2023
+Investment management 314 — 12 credits
+Theory of valuation; valuation models and techniques; practical implementation of
+valuation models; valuation variables; stock market analysis; industry analysis; company
+analysis and stock selection; technical analysis; equity portfolio management strategies.
+Prerequisite module: Investment Management 254
+Prerequisite pass modules: • Statistics and Data Science 188 or • Probability Theory and
+Statistics 114 or 144
+Home department: Business Management
+
+Investment management 324 — 12 credits
+Features and overview of fixed income securities and sectors; yield measures and spreads;
+valuations; interest rate risks and returns; credit analysis; term structure and interest rate
+dynamics; and other selected securities.
+Prerequisite module: Investment Management 254
+Prerequisite pass modules: • Statistics and Data Science 188 or • Probability Theory and
+Statistics 114 or 144
+Home department: Business Management
+Financial management 314 — 12 credits
+Standardisation of published financial statements; reclassifying items from financial
+statements for managerial decisionmaking; application of financial planning process by
+means of financial forecasting; calculation of the sustainable growth rate; estimation of an
+optimal capital structure; the application of free cash flow valuations; the influence of
+inflation on annual financial statements.
+Corequisite modules: • Financial Management 214 • Financial Management 244 or
+Investment Management 254
+Home department: Business Management
+Financial management 332 — 12 credits
+The application of the following financial selection measures on large capital projects:
+payback period method, method of the equivalent uniform annual cost, net present value
+method and the internal rate of return method; the impact of inflation when assessing
+investment projects and the calculation of the cost of capital; priority determination for
+multiple mutually exclusive projects.
+Corequisite modules: • Financial Management 214 • Financial Management 244 or
+Investment Management 254
+Home department: Business Management
+Statistics (Linear and Econometric Models) 318 — 24 credits
+Regression analysis: The multiple linear regression model. Maximum likelihood estimators;
+Residual analysis; Outliers and influential observations; Unequal variances;
+Multicollinearity; Power transformations; Variable selection; Weighted least squares;
+Logistic regression; Ridge regression; Robust regression; Principal component regression;
+Dummy variables and ANOVA; Log-linear model; Econometric models.
+
+Multivariate methods: Presentation of multivariate data; The multivariate normal
+distribution; Tests for normality; Hypothesis testing for one and two population mean
+vectors; Confidence regions and simultaneous confidence intervals; Multivariate control
+charts; Multivariate analysis of variance; Linear discriminant analysis; The use of the
+software R, STATISTICA and SAS to apply regression analysis and multivariate methods to
+datasets.
+Prerequisite pass modules: • Statistics 214, 224, 244 or • Mathematical Statistics 214, 245,
+246
+Home department: Statistics and Actuarial Science
+Investment management 344 — 12 credits
+Exposure to and handling of financial risk; the risk management process; the hedging
+concept; the functions of the treasury and the management of negotiable value;
+characteristics of derived financial instruments; strategies for the use of derived financial
+instruments; valuation of options and futures contracts; basic arbitrage strategies with
+options and futures contracts; swaps and forward rate agreements; alternative investments.
+Prerequisite module: Investment Management 254
+Prerequisite pass modules: • Statistics and Data Science 188 or • Probability Theory and
+Statistics 114 or 144
+Home department: Business Management
+Investment management 348 — 12 credits
+Introduction to the nature and scope of real estate; real estate markets and trends; legal
+aspects; financial and investment analysis in respect of the acquisition, ownership and sale
+of real estate; the role and impact of capital gains tax; market valuation approaches; types of
+real estate investment and financing instruments in the real estate market.
+Corequisite modules: • Financial Management 214 or • Financial Accounting 178 or 188
+Prerequisite pass modules: • Statistics and Data Science 188 or • Probability Theory and
+Statistics 114 or 144
+Home department: Business Management
+
+Investment management 354 — 12 credits
+The basic construction and ethical management of investment portfolios containing local
+and international investable asset classes. Investment ethics introduce the Code of Ethics
+and Standards of Professional Conduct of the CFA Institute; liability of investment
+practitioners towards the profession, employers, clients, possible clients and the broad
+public; reporting of historical investment returns; responsible risk taking; risk control.
+Portfolio management contains the functioning of investment markets; investment indexes;
+risk and return of real portfolios; advantages and disadvantages of diversification;
+transaction costs; investment analysis of portfolios investing in developed and emerging
+markets; and how to understand investors’ behavioural patterns.
+Corequisite module: Investment Management 254 Prerequisite pass modules: • Statistics
+and Data Science 188 or • Probability Theory and Statistics 114 or 144
+Home department: Business Management
+Financial accounting 288 — 32 credits
+Continuation of International Financial Reporting Standards; introduction to group
+statements and treatment of intergroup transactions.
+Prerequisite pass modules: Financial Accounting 178 or 188
+Home department: School of Accountancy
+Statistics (Statistical Practice) 348 — 24 credits
+Probability theory: Discrete probability distributions (the binomial, geometric, negative
+binomial, hypergeometric and Poisson distributions); Moments and moment generating
+functions; Continuous probability distributions (the normal, gamma and beta distributions);
+Functions of random variables (the method of transformations, the method of moment
+generating functions, and order statistics).
+Advanced statistical inference: Properties of estimators (unbiasedness, efficiency,
+consistency, sufficiency, robustness); Method-of-moments estimation; Maximum likelihood
+estimation; Likelihood ratio tests.
+Time series analysis: Time series decomposition methods; Single exponential smoothing;
+Holt’s method; Holt-Winter’s method; Multiple regression in time series analysis; Box-
+Jenkins methodology for ARIMA models; Using the R and STATISTICA software to apply
+time series models.
+Stochastic simulation: Generating random numbers from different distributions using R;
+Inverse transform method; Acceptance-rejection method; Practical applications of
+simulation using R.
+
+Bayesian inference: Bayes’ theorem; Bayesian priors, posteriors and estimators; Bayesian
+credibility intervals; Bayes hypothesis testing.
+Prerequisite module: Statistics 318 Home department: Statistics and Actuarial Science
+
+Academic Year 2024
+Biostatistics 712 — 12 credits (Code: 10408-712)
+Objectives and content: Biostatistics may be regarded as the study of the application of
+statistics to medicine. It covers medical terminology, the design of clinical trials, the
+collection and numerical analysis of data, the interpretation of the analyses and the drawing
+of conclusions. Particular emphasis is given to skills relevant to medical literature (the
+writing, as well as the understanding of writing by others) and statistical techniques and
+software that are widely used when doing medical research. It is not a mathematically
+strenuous course. It deals primarily with the philosophy and terminology of medical
+research, as well as the statistical techniques problems encountered in the medical field in
+particular. Topics that will be covered are: SAS, Clinical trials, Power and sample size
+analysis, Longitudinal data analysis, Handling missing data and Statistical genetics.
+Multivariate Methods in Statistics 721 (A) — 12 credits (Code: 10600-721)
+Objectives and content: The objective of the course is to teach students the practical
+application of multivariate analysis. Various multivariate methods are dealt with. Students
+learn when and where to apply these techniques. The consequences of the assumptions
+made on some of these techniques are also studied. The following topics are studied: Matrix
+algebra, Characterising and displaying multivariate data, The multivariate normal
+distribution, Inferences on one or two mean vectors, Multivariate analysis of variance,
+Inferences on the covariance matrix, Discriminant analysis, Classification analysis,
+Multivariate regression, Canonical correlation, Principal component analysis, Factor
+analysis and Cluster analysis. The R and SAS software are used in all the applications to
+datasets. The MMS A module is a prerequisite for the MMS B module.
+Multivariate Methods in Statistics 751 (B) — 12 credits (Code: 10601-751)
+Objectives and content: The objective of the course is to teach students the practical
+application of multivariate analysis. Various multivariate methods are dealt with. Students
+learn when and where to apply these techniques. The consequences of the assumptions
+made on some of these techniques are also studied. The following topics are studied: Matrix
+algebra, Characterising and displaying multivariate data, The multivariate normal
+distribution, Inferences on one or two mean vectors, Multivariate analysis of variance,
+Inferences on the covariance matrix, Discriminant analysis, Classification analysis,
+Multivariate regression, Canonical correlation, Principal component analysis, Factor
+analysis and Cluster analysis. The R and SAS software are used in all the applications to
+datasets. The MMS A module is a prerequisite for the MMS B module.
+
+Applied Time-Series Analysis 722 — 12 credits (Code: 10748-722)
+Objectives and content: This module is a continuation of undergraduate time series
+analyses and concentrates on more advanced forecasting techniques. Topics that are
+covered include:
+ The Box &amp; Jenkins methodology of tentative model identification, conditional and
+unconditional parameter estimation and diagnostic methods for checking the fit of
+the series.
+ ARIMA and Seasonal ARIMA-processes.
+ Introduction to Fourier Analysis, spectrum of a periodic time series, estimation of
+the spectrum, periodogram analysis, smoothing of the spectrum.
+ Case studies using STATISTICA, R and SAS.
+ Forecasting with ARMA models and prediction intervals for forecasts.
+ Transfer function models and intervention analysis.
+ Multiple regression with ARMA errors, cointegration of non-stationary time series.
+ Conditional heteroscedastic time series models, ARCH and GARCH.
+Research Assignment: Statistics 792 — 30 credits (Code: 11226-792)
+Honours thesis completed with the degree. A comparative study on Principal Component
+Analysis and t-Distributed Stochastic Neighbour Embedding. The study involved application
+of these clustering techniques to different types of data sets and we performed a critical
+analysis on its efficiency in different circumstances.
+Capita Selecta in Statistics A 725 — 12 credits (Code: 11920-725) (316 (16) Data
+Science (4L, 2P))
+Objectives and content: Selected and specialised topics to be followed in Applied Statistics.
+Content varies from year to year when offered.
+In this module approaches to supervised and unsupervised machine learning are discussed.
+Supervised learning uses labelled datasets and can be separated into two types of problems,
+namely classification and regression. Classification problems can be solved by a
+multivariate technique, namely discriminant analysis that separates two or more groups of
+observations based on variables measured on each sample unit. The naïve Bayes classifier is
+another effective classification algorithm for discriminating between two or more groups.
+To measure the classification accuracy of these techniques, cross validation and bootstrap
+resampling procedures are also discussed. In regression problems the relationship between
+dependent and independent variables is investigated. Popular regression algorithms are
+regularized regression, principal component regression and partial least squares
+regression. For classification and regression problems, tree-based methods, such as random
+
+forests and boosting, can also be applied as modelling techniques. Unsupervised learning
+uses unlabelled datasets and is associated with tasks in clustering and dimensionality
+reduction. Clustering is done according to a similarity measure for grouping data objects
+together. Modern clustering techniques such as k-means, Gaussian mixture models and
+spectral clustering are discussed. Dimensionality reduction is the statistical technique of
+reducing the number of random variables in a problem by obtaining a set of principal
+variables. Specifically, principal component analysis and independent component analysis
+are discussed.
+Prerequisite pass module: Data Science 241
+Corequisite module: Mathematical Statistics 312
+Home department: Statistics and Actuarial Science
+Introduction to R Programming 723 — 6 credits (Code: 13074-723)
+Objectives and content: This module is an introduction to programming and data analysis
+within the R open source environment. It is presented as a block course in the first two
+weeks of the first semester and commences the week preceding general commencement of
+classes. The viewpoint of this module as well as of all modules where R plays a role is in
+agreement with the aim of the R computer language: &quot;R has a simple goal: To turn ideas into
+software, quickly and faithfully&quot;.
+Stochastic Modelling 736 — 12 credits (Code: 65242-736)
+Stochastic Modeling is a second-semester module. The module focuses on the study of
+probability models and stochastic processes, including both analytical techniques
+and stochastic simulation. It aims to equip students with the ability to model real-world
+phenomena with random or stochastic components, understand the role of assumptions in
+model selection, and apply statistical techniques for analysis and simulation. Various
+discrete and continuous distributions were studied in depth. (No formal definition is
+publicly available.)
+Applied Stochastic Simulation 746 — 12 credits (Code: 65269-746)
+Objectives and content: In this module the student learns to understand and apply the
+underlying mathematical principles behind stochastic simulation. Statistical theory is
+applied to practical problems which are modelled on computer. To achieve this, the student
+revises probability theory, including conditional probability and independence, discrete and
+continuous distributions, probability integral transformation, and Bayes&#39; theorem.
+Pseudorandom number generation is studied to simulate stochastic problems. These
+pseudorandom numbers are used to evaluate integrals, and to generate discrete and
+continuous random variables. It is also important to do a statistical analysis of simulated
+data using point and interval estimates of the mean and variance, as well as bootstrap
+techniques. Input data for simulation models are analysed with the chi-squared and
+
+Kolmogorov-Smirnoff goodness-of-fit tests. The student finally develops practical
+simulation models of discrete-event, dynamic stochastic processes using a dedicated
+simulation software package.
