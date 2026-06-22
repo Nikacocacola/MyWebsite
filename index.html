@@ -859,10 +859,11 @@
             practical in execution.
           </p>
           <p>
-            Currently a <strong>Data Engineer at IT Trust</strong>, where I own the full data stack —
-            pipelines, BI, and a production VPS self-service platform I built solo from UI
-            to infrastructure API. Before that, I built analytics platforms for clients across the
-            fresh produce supply chain at <strong>Prophet SA</strong>.
+            Currently a <strong>Data Engineer at Old School</strong>, where I'm building out the
+            company's data infrastructure end to end — migrating ingestion, pipelines, models,
+            warehouses, lakehouses, and reporting in-house from external consultants. Before that,
+            at <strong>IT Trust</strong> I owned the full data stack — pipelines, BI, and a production
+            VPS self-service platform I built solo from UI to infrastructure API.
           </p>
           <p>
             I take ownership end-to-end — from understanding the problem to delivering the solution.
@@ -903,6 +904,8 @@
               <span class="skill-tag">Star Schema</span>
               <span class="skill-tag">ETL Pipelines</span>
               <span class="skill-tag">MS Azure Fabric</span>
+              <span class="skill-tag">Airbyte</span>
+              <span class="skill-tag">dbt</span>
             </div>
           </div>
           <div>
@@ -933,9 +936,24 @@
           <div class="timeline-header">
             <div>
               <h3 class="timeline-role">Data Engineer</h3>
+              <p class="timeline-company">Old School</p>
+            </div>
+            <span class="timeline-dates">Jun 2026 — Present</span>
+          </div>
+          <ul class="timeline-bullets">
+            <li>Own the build-out of the company's data infrastructure end to end — ingestion, pipelines, models, warehouses, lakehouses, and reporting</li>
+            <li>Leading the migration of the full data stack from external consultants into our own environment</li>
+            <li>Establishing in-house data capabilities to support the company's analytics and decision-making going forward</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <div>
+              <h3 class="timeline-role">Data Engineer</h3>
               <p class="timeline-company">IT Trust</p>
             </div>
-            <span class="timeline-dates">Feb 2026 — Present</span>
+            <span class="timeline-dates">Feb 2026 — Jun 2026</span>
           </div>
           <ul class="timeline-bullets">
             <li>Sole developer of an automated VPS self-service platform on Next.js and Proxmox — full stack from UI to infrastructure API integration</li>
@@ -1012,33 +1030,41 @@
       <div class="projects-grid fade-in">
 
         <div class="project-card">
-          <p class="project-type">Infrastructure · Full-stack</p>
+          <p class="project-type">Infrastructure · Full-stack · Automation</p>
           <h3 class="project-title">VPS Self-Service Platform</h3>
           <p class="project-desc">
             Built solo — a fully automated VPS provisioning platform on Next.js and Proxmox.
-            Handles the full stack: order ingestion, async VM creation, and automated credential
-            delivery via Microsoft Graph API. Zero manual intervention once an order comes in.
+            An incoming order triggers async VM creation via the Proxmox API: OS template selection,
+            resource allocation, and network configuration happen programmatically without touching
+            a console. Once live, credentials are packaged and delivered to the customer via
+            Microsoft Graph API — zero manual intervention from order to running instance.
           </p>
+          <p class="project-type" style="margin-top:0.75rem;">Next.js · Proxmox API · Microsoft Graph API · Node.js · Infrastructure automation</p>
         </div>
 
         <div class="project-card">
-          <p class="project-type">Data Engineering · BI</p>
+          <p class="project-type">Data Engineering · BI · ETL</p>
           <h3 class="project-title">MSP Data Platform</h3>
           <p class="project-desc">
-            Extracted raw operational data from the N-able MSP API, modelled it into a star schema
-            in SQL Server, and built Power BI reports on top via an on-prem gateway —
-            turning previously unstructured MSP data into business intelligence.
+            Extracted raw operational data from the N-able MSP API — devices, alerts, patch status,
+            and service records — and modelled it into a star schema in SQL Server. Power BI reports
+            connect via on-prem gateway, surfacing cross-client visibility that didn't exist in the
+            raw platform — turning N-able's siloed device data into actionable business intelligence
+            for the MSP team.
           </p>
+          <p class="project-type" style="margin-top:0.75rem;">N-able API · SQL Server · Star schema · Power BI · On-prem gateway · ETL</p>
         </div>
 
         <div class="project-card">
           <p class="project-type">SQL · Power BI · Analytics</p>
           <h3 class="project-title">Logistics & Operations Dashboards</h3>
           <p class="project-desc">
-            Power BI dashboards tracking pallet movements, delivery performance, and floor-level
-            operations across fresh produce logistics. Backed by SQL stored procedures and views
-            that transformed raw transactional data into clean, reportable sets for operations managers.
+            Power BI dashboards tracking pallet movements, truck utilisation, delivery performance,
+            and throughput across fresh produce logistics. SQL stored procedures handle all
+            transformation and aggregation — keeping the report layer clean and replacing ad hoc
+            exports with a single source of truth operations managers could act on during the shift.
           </p>
+          <p class="project-type" style="margin-top:0.75rem;">SQL Server · Stored procedures · Power BI · Logistics data</p>
         </div>
 
         <div class="project-card">
@@ -1046,19 +1072,24 @@
           <h3 class="project-title">Cold Storage Dashboards</h3>
           <p class="project-desc">
             Dashboards monitoring cold chain KPIs across storage facilities — occupancy, intake,
-            dispatch, and stock ageing. SQL stored procedures and views handled the heavy lifting
-            behind the scenes, flagging capacity bottlenecks before they became costly problems.
+            dispatch, and stock ageing per product line. Business rules for threshold classification
+            are applied in SQL so site managers see clean signals rather than raw transactional noise.
+            Stock ageing alerts surface inventory approaching hold limits before it becomes a writeoff.
           </p>
+          <p class="project-type" style="margin-top:0.75rem;">SQL Server · Stored procedures · Power BI · Cold chain data</p>
         </div>
 
         <div class="project-card">
           <p class="project-type">SQL · Power BI · Finance</p>
           <h3 class="project-title">Cash Flow & Revenue Dashboards</h3>
           <p class="project-desc">
-            Executive-facing financial dashboards tracking revenue, collections, and cash flow across
-            client accounts in the fresh produce sector. Built on SQL views aggregating multiple source
-            systems into a single pane of truth for leadership reporting.
+            Executive-facing dashboards tracking revenue, outstanding collections, and cash flow
+            across client accounts in the fresh produce sector. SQL views consolidate multiple source
+            systems into a single reporting layer with full drill-down — from high-level cash position
+            to individual account detail. Replaced recurring manual pack preparation for finance
+            leadership meetings.
           </p>
+          <p class="project-type" style="margin-top:0.75rem;">SQL Server · SQL views · Power BI · Financial reporting</p>
         </div>
 
         <div class="project-card">
@@ -1072,23 +1103,32 @@
         </div>
 
         <div class="project-card">
-          <p class="project-type">eCommerce · Engineering</p>
-          <h3 class="project-title">Dynamic Pricing Middleware</h3>
+          <p class="project-type">eCommerce · Engineering · Automation</p>
+          <h3 class="project-title">Dynamic Pricing Middleware — The Trade Inn</h3>
           <p class="project-desc">
-            Built middleware that integrates directly with a Shopify store and updates product pricing
-            in real time based on live signals. First-hand experience with how ecommerce platforms
-            work under the hood — payments, APIs, and all.
+            Full pricing pipeline for a live Shopify TCG store. A fuzzy-matching mapper hits the
+            JustTCG API to match 300+ products to their TCGPlayer IDs — handling ambiguous names,
+            foil variants, and double-faced cards — then writes prices back to Shopify via OAuth 2.0.
+            Syncs nightly via GitHub Actions with rate-limit handling and CI-persisted caches. An
+            admin dashboard lets the owner trigger runs manually, review unmatched products, import
+            Manabox CSVs, and watch live log output from the running workflow.
           </p>
+          <p class="project-type" style="margin-top:0.75rem;">Shopify API · GitHub Actions · OAuth 2.0 · Node.js · Rate limiting · CI/CD</p>
         </div>
 
         <div class="project-card">
-          <p class="project-type">Full-stack · EdTech</p>
-          <h3 class="project-title">Full-Service Tutoring Platform</h3>
+          <p class="project-type">Full-stack · EdTech · Real-time</p>
+          <h3 class="project-title">Nird — Full-Service Tutoring Platform</h3>
           <p class="project-desc">
-            End-to-end tutoring platform with backend authentication, live virtual classrooms,
-            an interactive whiteboard, and integrated video calling. Built to handle the full
-            session lifecycle — from booking and auth to real-time collaborative teaching tools.
+            Built the complete backend and frontend for a live tutoring platform. Handles role-based
+            onboarding, classroom booking with join-code entry, and real-time collaborative sessions —
+            all gated behind Supabase Auth with Row Level Security at the database layer. Each
+            classroom runs Socket.io for chat, WebRTC via PeerJS for video, and Excalidraw for
+            annotation. File uploads are processed server-side; PDFs convert to images on arrival
+            and render inline. Deployed across Next.js and React on Vercel and Express + Socket.io
+            on Railway, sharing a single Supabase PostgreSQL instance.
           </p>
+          <p class="project-type" style="margin-top:0.75rem;">React · Node.js · Express · Socket.io · WebRTC · PeerJS · Excalidraw · Supabase · PostgreSQL · RLS · Next.js · Vercel · Railway</p>
         </div>
 
         <div class="project-card">
@@ -1126,11 +1166,6 @@
           <a href="https://www.linkedin.com/in/nikolas-germishuysen-403141248/" target="_blank" class="contact-link">
             <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452H16.89v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.977 1.977 0 0 1-1.972-1.974 1.975 1.975 0 1 1 1.972 1.974zm1.709 13.019H3.623V9h3.423v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
             LinkedIn
-          </a>
-
-          <a href="https://www.instagram.com/nikolasgermishuysen" target="_blank" class="contact-link">
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="width:19px;height:19px"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 2C4.46 2 2 4.46 2 7.5v9C2 19.54 4.46 22 7.5 22h9c3.04 0 5.5-2.46 5.5-5.5v-9C22 4.46 19.54 2 16.5 2h-9zM4 7.5C4 5.57 5.57 4 7.5 4h9C18.43 4 20 5.57 20 7.5v9c0 1.93-1.57 3.5-3.5 3.5h-9C5.57 20 4 18.43 4 16.5v-9z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M12 7a5 5 0 1 0 0 10A5 5 0 0 0 12 7zm-3 5a3 3 0 1 1 6 0 3 3 0 0 1-6 0z"/><circle cx="17" cy="7" r="1.5"/></svg>
-            Instagram
           </a>
 
         </div>
